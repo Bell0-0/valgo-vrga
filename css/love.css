@@ -239,15 +239,15 @@ body {
   bottom: 15px;  /* 10px desde abajo */
   left: 40px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 400px;  /* tamaño ajustable */
-  height: 350px;
+  width: 40px;  /* tamaño ajustable */
+  height: 35px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
   width: 0;
   height: 3px;              /* línea delgada */
   background-color: black;  /* color inicial */
-  margin-top: 480px;
+  margin-top: 400px;
   transition: none;
 }
 
