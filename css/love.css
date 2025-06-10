@@ -220,10 +220,11 @@ body {
 }
 
 #question {
-  display: none;
+  display: block;
   position: fixed;
   bottom: 20px;
   right: 450px;
+  aligne: center;
   font-size: 20px;
   font-style: italic;
   color: #FF4081;
