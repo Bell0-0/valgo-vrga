@@ -219,12 +219,6 @@ body {
   transition: top 0.2s;
 }
 
-#miGif {
-  display: none;
-  margin: 20px auto;
-  width: 200px;
-}
-
 #question {
   display: none;
   position: fixed;
