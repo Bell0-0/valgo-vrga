@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Querido Fabián...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un mensaje especial con amor.">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
+    <link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+        <div id="linea" style="width: 0; height: 2px; background-color: black; margin-top: 20px;"></div>
+
+
+    <!-- Botón para iniciar -->
+    <button id="startButton">PRESIONAME</button>
+
+    <!-- GIF romántico oculto hasta iniciar -->
+    <img id="miGif" src="images/biubiubiu.gif" alt="GIF romántico" style="display: none;" />
+
+    <!-- Contenedor de bloques de corazones -->
+    <div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+        <div class="body_center love">
+            <div class="block">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+                <div class="div4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pregunta que aparece al final -->
+    <div id="question" style="display: none;">
+        ¿Quieres estar a mi lado?
+    </div>
+
+    <!-- Audio (activado por el botón) -->
+    <audio id="endAudio" preload="auto">
+        <source src="MP3/song.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Script principal -->
+    <script src="js/love.js"></script>
+
+</body>
+</html>

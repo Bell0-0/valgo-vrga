@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.icon-love {
+    width: 400px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden; 
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*---------------------- body_left -------------------------*/
+.body_left {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    bottom: 110px;
+    position: absolute;
+    z-index: 98;
+    height: 100vh;             /* Altura completa de la ventana */
+  margin: 0;
+  display: flex;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center; 
+
+}
+
+/*---------------------- body_left -------------------------*/
+
+/*---------------------- body_center -------------------------*/
+.container .love {
+    width: 520px; /* 13 * 40 */
+    height: 440px; /* 11 * 40 */
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -260px 0 0 -220px;
+    /*background-color: gray;*/
+}
+
+.love .block {
+    right: 0;
+    position: absolute;
+    visibility: hidden;
+    background-color: yellow;
+}
+
+.love .block div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: url("../images/heart.png") no-repeat;
+    background-size: contain;
+    /*background-color: #c40908;*/
+    /*border: 1px solid silver;*/
+    box-sizing: border-box;
+}
+
+
+/*---------------------- body_center -------------------------*/
+
+/*---------------------- footer -------------------------*/
+@keyframes border {
+    0% {
+        width: 0;
+    }
+    5% {
+        width: 5%;
+    }
+    10% {
+        width: 10%;
+    }
+    15% {
+        width: 15%;
+    }
+    20% {
+        width: 20%;
+    }
+    25% {
+        width: 25%;
+    }
+    30% {
+        width: 30%;
+    }
+    35% {
+        width: 35%;
+    }
+    40% {
+        width: 40%;
+    }
+    45% {
+        width: 45%;
+    }
+    50% {
+        width: 50%;
+    }
+    55% {
+        width: 55%;
+    }
+    60% {
+        width: 60%;
+    }
+    65% {
+        width: 65%;
+    }
+    70% {
+        width: 70%;
+    }
+    75% {
+        width: 75%;
+    }
+    80% {
+        width: 80%;
+    }
+    85% {
+        width: 85%;
+    }
+    90% {
+        width: 90%;
+    }
+    95% {
+        width: 95%;
+    }
+    100% {
+        width: 100%;
+    }
+
+}
+.footer {
+    bottom: 30px;
+    position: relative;
+    z-index: 99;
+}
+.footer .border .border-top {
+    /*width: 0;*/
+    /*display: inline-block;*/
+    border-top: 3px solid black;
+    transform-origin: left center;
+    -webkit-animation: border 312 linear;
+    -o-animation: border 12s linear;
+    animation: border 12s linear;
+    animation-fill-mode : both;
+    /*border-bottom: none;*/
+}
+
+.footer .border .border-bottom {
+    /*width: 0;*/
+    /*display: inline-block;*/
+    float: right;
+    border-top: 3px solid red;
+    transform-origin: right center;
+    -webkit-animation: border 7s linear 12s;
+    -o-animation: border 7s linear 12s;
+    animation: border 7s linear 12s;
+    animation-fill-mode : both;
+    /*border-bottom: none;*/
+}
+
+.footer .copyright {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    /*background-color: gray;*/
+
+}
+
+.copyright div {
+    width: 30%;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.copyright div span {
+    color: dimgray;
+}
+#question {
+  display: none;
+  position: fixed;
+  bottom: 180px;
+  right: 350px;
+  font-size: 20px;
+  font-style: italic;
+  color: #FF4081;
+  background-color: #ffffff;
+  border: 2px solid #FF4081;
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+#startButton {
+  display: block;
+  margin: 448px auto;
+  background: linear-gradient(135deg, #FF4081, #F50057);
+  border: none;
+  padding: 15px 40px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(245, 0, 87, 0.4);
+  transition: all 0.3s ease;
+  user-select: none;
+  
+  
+}
+
+#startButton:hover {
+  box-shadow: 0 12px 20px rgba(245, 0, 87, 0.6);
+  transform: translateY(-3px);
+}
+
+#love {
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  text-align: center;
+  transition: top 0.2s;
+}
+
+#miGif {
+  display: none;
+  margin: 20px auto;
+  width: 200px;
+}
+
+#question {
+  display: none;
+  position: fixed;
+  bottom: 200px;
+  right: 790px;
+  font-size: 35px;
+  font-style: italic;
+  color: #FF4081;
+  background-color: #ffffff;
+  border: 2px solid #FF4081;
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 800;
+}
+#miGif {
+  position: fixed;
+  bottom: 10px;  /* 10px desde abajo */
+  left: 30px;    /* 10px desde la izquierda */
+  display: none; /* oculto por defecto */
+  width: 400px;  /* tamaño ajustable */
+  height: auto;
+  z-index: 1000; /* para que quede encima de otros elementos */
+}
+#linea {
+  width: 0;
+  height: 3px;              /* línea delgada */
+  background-color: black;  /* color inicial */
+  margin-top: 500px;
+  transition: none;
+}
+
+
+
+
+/*---------------------- footer -------------------------*/
+
