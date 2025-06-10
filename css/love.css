@@ -46,7 +46,7 @@ body {
     left: 50%;
     top: 40%;
     position: absolute;
-    margin: -70px 0 0 -50px;
+    margin: -70px 0 0 -70px;
     /*background-color: gray;*/
 }
 
@@ -213,7 +213,7 @@ body {
 
 #love {
   position: relative;
-  top: 180px;
+  top: 200px;
   font-size: 40px;
   text-align: center;
   transition: top 0.2s;
@@ -222,7 +222,7 @@ body {
 #question {
   display: none;
   position: fixed;
-  bottom: 30px;
+  bottom: 80px;
   right: 850px;
   font-size: 20px;
   font-style: italic;
@@ -237,7 +237,7 @@ body {
 #miGif {
   position: fixed;
   bottom: 15px;  /* 10px desde abajo */
-  left: 30px;    /* 10px desde la izquierda */
+  left: 40px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
   width: 400px;  /* tamaño ajustable */
   height: 400px;
