@@ -241,7 +241,7 @@ body {
   left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
   width: 400px;  /* tamaño ajustable */
-  height: 600;
+  height: 600px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
