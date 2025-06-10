@@ -42,11 +42,11 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 260px; /* 13 * 40 */
-    height: 100px; /* 11 * 40 */
+    height: 90px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
-    margin: -130px 0 0 -110px;
+    margin: -160px 0 0 -110px;
     /*background-color: gray;*/
 }
 
@@ -220,11 +220,10 @@ body {
 }
 
 #question {
-  display: block;
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 450px;
- 
   font-size: 20px;
   font-style: italic;
   color: #FF4081;
@@ -236,7 +235,7 @@ body {
   z-index: 1000;
 }
 #miGif {
-  position: fixed;
+  position: relative;
   bottom: 15px;  /* 10px desde abajo */
   left: 40px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
