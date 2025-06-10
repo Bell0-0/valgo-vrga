@@ -243,9 +243,9 @@ body {
 #miGif {
   position: fixed;
   bottom: 10px;  /* 10px desde abajo */
-  left: 20px;    /* 10px desde la izquierda */
+  left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 40px;  /* tamaño ajustable */
+  width: 400px;  /* tamaño ajustable */
   height: auto;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
