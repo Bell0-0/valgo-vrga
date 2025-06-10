@@ -222,14 +222,14 @@ body {
 #miGif {
   display: none;
   margin: 20px auto;
-  width: 200px;
+  width: 500px;
 }
 
 #question {
   display: none;
   position: fixed;
-  bottom: 90px;
-  right: 300px;
+  bottom: 150px;
+  right: 500px;
   font-size: 25px;
   font-style: italic;
   color: #FF4081;
@@ -246,7 +246,7 @@ body {
   left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
   width: 400px;  /* tamaño ajustable */
-  height: 250px;
+  height: 800px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
