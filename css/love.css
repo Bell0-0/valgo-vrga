@@ -240,8 +240,8 @@ body {
   bottom: 10px;  /* 10px desde abajo */
   left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 800px;  /* tamaño ajustable */
-  height: 600px;
+  width: 400px;  /* tamaño ajustable */
+  height: auto;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
