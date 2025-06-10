@@ -42,9 +42,9 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 250px; /* 13 * 40 */
-    height: 150px; /* 11 * 40 */
+    height: 100px; /* 11 * 40 */
     left: 50%;
-    top: 40%;
+    top: 50%;
     position: absolute;
     margin: -70px 0 0 -100px;
     /*background-color: gray;*/
@@ -222,8 +222,8 @@ body {
 #question {
   display: block;
   position: fixed;
-  bottom: 80px;
-  right: 15px;
+  bottom: 60px;
+  right: 10px;
   max-width: 90%;
   font-size: 20px;
   font-style: italic;
@@ -240,7 +240,7 @@ body {
   bottom: 15px;  /* 10px desde abajo */
   left: 40px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 400px;  /* tamaño ajustable */
+  width: 40px;  /* tamaño ajustable */
   height: 350px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
