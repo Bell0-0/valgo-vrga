@@ -23,7 +23,7 @@ body {
 
 /*---------------------- body_left -------------------------*/
 .body_left {
-    width: 280px;
+    width: 300px;
     height: 300px;
     left: 0;
     bottom: 110px;
@@ -41,12 +41,12 @@ body {
 
 /*---------------------- body_center -------------------------*/
 .container .love {
-    width: 250px; /* 13 * 40 */
+    width: 260px; /* 13 * 40 */
     height: 2200px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
-    margin: -130px 0 0 -100px;
+    margin: -130px 0 0 -110px;
     /*background-color: gray;*/
 }
 
@@ -224,7 +224,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 40px;
-  max-width: 90%;
+ 
   font-size: 20px;
   font-style: italic;
   color: #FF4081;
