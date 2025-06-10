@@ -42,11 +42,11 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 250px; /* 13 * 40 */
-    height: 170px; /* 11 * 40 */
+    height: 150px; /* 11 * 40 */
     left: 50%;
     top: 40%;
     position: absolute;
-    margin: -70px 0 0 -110px;
+    margin: -70px 0 0 -100px;
     /*background-color: gray;*/
 }
 
@@ -58,8 +58,8 @@ body {
 }
 
 .love .block div {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     background: url("../images/heart.png") no-repeat;
     background-size: contain;
@@ -223,7 +223,7 @@ body {
   display: block;
   position: fixed;
   bottom: 80px;
-  right: 20px;
+  right: 15px;
   max-width: 90%;
   font-size: 20px;
   font-style: italic;
@@ -241,7 +241,7 @@ body {
   left: 40px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
   width: 400px;  /* tamaño ajustable */
-  height: 400px;
+  height: 350px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
