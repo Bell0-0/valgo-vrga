@@ -222,7 +222,7 @@ body {
 #question {
   display: none;
   position: fixed;
-  bottom: 150px;
+  bottom: 80px;
   right: 6000px;
   font-size: 25px;
   font-style: italic;
