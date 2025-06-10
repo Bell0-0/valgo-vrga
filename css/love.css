@@ -228,8 +228,8 @@ body {
 #question {
   display: none;
   position: fixed;
-  bottom: 150px;
-  right: 350px;
+  bottom: 50px;
+  right: 100px;
   font-size: 35px;
   font-style: italic;
   color: #FF4081;
