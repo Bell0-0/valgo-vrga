@@ -41,12 +41,12 @@ body {
 
 /*---------------------- body_center -------------------------*/
 .container .love {
-    width: 200px; /* 13 * 40 */
-    height: 130px; /* 11 * 40 */
+    width: 260px; /* 13 * 40 */
+    height: 220px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
-    margin: -150px 0 0 -160px;
+    margin: -130px 0 0 -110px;
     /*background-color: gray;*/
 }
 
@@ -223,7 +223,7 @@ body {
   display: none;
   position: fixed;
   bottom: 160px;
-  right: 6500px;
+  right: 650px;
   font-size: 25px;
   font-style: italic;
   color: #FF4081;
@@ -239,8 +239,8 @@ body {
   bottom: 10px;  /* 10px desde abajo */
   left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 80px;  /* tamaño ajustable */
-  height: 80px;
+  width: 400px;  /* tamaño ajustable */
+  height: 400px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
