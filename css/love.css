@@ -23,7 +23,7 @@ body {
 
 /*---------------------- body_left -------------------------*/
 .body_left {
-    width: 300px;
+    width: 280px;
     height: 300px;
     left: 0;
     bottom: 110px;
@@ -42,7 +42,7 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 250px; /* 13 * 40 */
-    height: 210px; /* 11 * 40 */
+    height: 180px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
@@ -239,8 +239,8 @@ body {
   bottom: 15px;  /* 10px desde abajo */
   left: 30px;    /* 10px desde la izquierda */
   display: none; /* oculto por defecto */
-  width: 400px;  /* tamaño ajustable */
-  height: 400px;
+  width: 40px;  /* tamaño ajustable */
+  height: 40px;
   z-index: 1000; /* para que quede encima de otros elementos */
 }
 #linea {
