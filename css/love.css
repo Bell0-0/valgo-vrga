@@ -42,7 +42,7 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 200px; /* 13 * 40 */
-    height: 120px; /* 11 * 40 */
+    height: 130px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
@@ -222,7 +222,7 @@ body {
 #question {
   display: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 160px;
   right: 6500px;
   font-size: 25px;
   font-style: italic;
