@@ -42,7 +42,7 @@ body {
 /*---------------------- body_center -------------------------*/
 .container .love {
     width: 520px; /* 13 * 40 */
-    height: 440px; /* 11 * 40 */
+    height: 340px; /* 11 * 40 */
     left: 50%;
     top: 50%;
     position: absolute;
